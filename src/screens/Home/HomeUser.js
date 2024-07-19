@@ -17,7 +17,9 @@ const HomeUser = ({navigation}) => {
       </Text>
       <Button
         title="Go to Greeting"
-        onPress={() => navigation.navigate('gretting', {name: '', age: 35})}
+        onPress={() =>
+          navigation.navigate('gretting', {name: 'sadhna', age: 35})
+        }
       />
     </View>
   );
