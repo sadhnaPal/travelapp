@@ -3,60 +3,152 @@
         "id": 1,
         "name":"Colosseum",
         "city":"Delhi",
-        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        "categories": [
+           "Most Visited"
+        ],
+        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+        "imageList":[
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+             "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+              "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+               "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+                "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        ]
     },
     {
         "id": 2,
         "name":"test",
         "city":"noida",
-        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        "categories": [
+           "Most Visited"
+        ],
+        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+        "imageList":[
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        ]
     },
     {
         "id": 3,
         "name":"dummy",
         "city":"mumbai",
-        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        "categories": [
+           "Most Visited"
+        ],
+        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+        "imageList":[
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        ]
     },
     {
         "id": 4,
         "name":"user",
         "city":"Delhi",
-        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        "categories": [
+           "Historical"
+        ],
+        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+        "imageList":[
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        ]
     },
     {
         "id": 5,
         "name":"Colosseum",
         "city":"new delhi",
-        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        "categories": [
+           "Historical"
+        ],
+        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+        "imageList":[
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        ]
     },
     {
         "id": 6,
         "name":"test",
         "city":"jaipur",
-        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        "categories": [
+           "Recommended"
+        ],
+        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+        "imageList":[
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        ]
     },
     {
         "id": 7,
         "name":"local",
         "city":"Delhi",
-        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        "categories": [
+           "Trending"
+        ],
+        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+        "imageList":[
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        ]
     },
     {
         "id": 8,
         "name":"hill",
         "city":"shimla",
-        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        "categories": [
+           "Trending"
+        ],
+        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+        "imageList":[
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        ]
     },
     {
         "id": 9,
         "name":"Colosseum",
         "city":"uttar pradesh",
-        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        "categories": [
+           "Trending"
+        ],
+        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+        "imageList":[
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        ]
     },
     {
         "id": 10,
         "name":"kochi",
         "city":"Delhi",
-        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        "categories": [
+           "Trending"
+        ],
+        "image":"https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+        "imageList":[
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg",
+            "https://hreactive.teckhubsolutions.com/employee/downloadEmployeeImage/IMG-20240710-WA0001.jpg"
+        ]
     }
 ]

@@ -2,7 +2,8 @@ import {StyleSheet} from 'react-native';
 
 const HomeStyle = StyleSheet.create({
   container: {
-    margin: 32,
+    marginLeft: 32,
+    marginRight: 32,
   },
 
   title: {
@@ -28,6 +29,16 @@ const HomeStyle = StyleSheet.create({
   row: {
     flexDirection: 'row',
     flexWrap: 'wrap',
+  },
+
+  backStyle: {
+    margin: 20,
+  },
+  noData: {
+    fontSize: 15,
+    color: '#4681A3',
+    textAlign: 'center',
+    marginTop: 24,
   },
 });
 

@@ -1,0 +1,6 @@
+{
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "json.schemas": [
+       { "exclude": ["node_modules"]}
+    ]
+}

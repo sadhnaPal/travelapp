@@ -1,16 +1,16 @@
-import {Image, Text, View} from 'react-native';
+import {Image, Text, View, TouchableOpacity} from 'react-native';
 import AttractionStyle from './AttractionStyle';
 import jsonData from '../data/attraction.json';
 
 import React, {useEffect, useState} from 'react';
 
-const AttractionCard = ({title, imageSrc, subTitle, style}) => {
+const AttractionCard = ({title, imageSrc, subTitle, style, onPress}) => {
   const [getData, setData] = useState([]);
   useEffect(() => {
-    console.log('jsonData -> ', jsonData);
+    // console.log('jsonData -> ', jsonData);
   }, []);
   return (
-    <View style={[AttractionStyle.card, style]}>
+    <TouchableOpacity onPress={onPress} style={[AttractionStyle.card, style]}>
       <Image style={AttractionStyle.image} source={{uri: imageSrc}} />
       <Text style={AttractionStyle.title}>{title}</Text>
       <View style={AttractionStyle.row}>
@@ -20,7 +20,7 @@ const AttractionCard = ({title, imageSrc, subTitle, style}) => {
         />
         <Text style={AttractionStyle.subTitle}>{subTitle}</Text>
       </View>
-    </View>
+    </TouchableOpacity>
   );
 };
 

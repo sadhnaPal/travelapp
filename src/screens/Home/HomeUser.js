@@ -1,15 +1,33 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Text, View, StyleSheet, Button, FlatList} from 'react-native';
 import HomeStyle from './Homestyle';
 import Gretting from './Gretting';
 import AttractionCard from '../../components/AttractionCard';
 import Categories from '../../components/Categories';
 import data from '../../data/attraction.json';
+import category from '../../data/category.json';
+
+const All = 'All';
 
 const HomeUser = ({navigation}) => {
   const [getStateText, setStateText] = useState('Default text');
-  const [getSelectedCategory, setSelectedCategory] = useState('All');
+  const [getSelectedCategory, setSelectedCategory] = useState(All);
   const [getData, setData] = useState([]);
+  useEffect(() => {
+    setData(data);
+  }, []);
+
+  useEffect(() => {
+    if (getSelectedCategory === All) {
+      setData(data);
+    } else {
+      const filterData = data?.filter(item =>
+        item?.categories?.includes(getSelectedCategory),
+      );
+      setData(filterData);
+    }
+  }, [getSelectedCategory]);
+
   const categoriesData = [
     {id: 1, title: 'All'},
     {id: 2, title: 'Popular'},
@@ -40,10 +58,11 @@ const HomeUser = ({navigation}) => {
       </ScrollView> */}
 
       <FlatList
-        data={data}
+        data={getData}
         numColumns={2}
         showsVerticalScrollIndicator={false}
-        ListEmptyComponent={<Text>No Data Found</Text>}
+        style={{flexGrow: 1}}
+        ListEmptyComponent={<Text style={HomeStyle.noData}>No Data Found</Text>}
         ListHeaderComponent={
           <>
             <Text style={HomeStyle.title}>Where do </Text>
@@ -53,7 +72,7 @@ const HomeUser = ({navigation}) => {
             <Categories
               selectedCategory={getSelectedCategory}
               onCategoryPress={setSelectedCategory}
-              categories={categoriesData}
+              categories={[All, ...category]}
             />
           </>
         }
@@ -65,6 +84,7 @@ const HomeUser = ({navigation}) => {
             imageSrc={item.image}
             title={item.name}
             subTitle={item.city}
+            onPress={() => navigation.navigate('AttractionDetail', {item})}
           />
         )}
       />
